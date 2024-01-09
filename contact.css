@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: row;
     margin: 0   ;
 
 }
@@ -17,6 +18,7 @@ font-size: 1em;
 }
 .tad-conten  {
 display: flex;
+flex: 3;
 flex-direction: column;
 justify-content: center;
 gap: 3rem;
@@ -37,12 +39,17 @@ a {
     color: black;
 }
 .tad-logo {
-    background-color: black;
-    width:70%;
-    height: 50%;
+    
+    width: 100% ;
+    font-size: 30px;
+    padding: 50px;
+
 }
 .Portfolio {
-    width: 57%;
-    height: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+background-color: rgb(187, 179, 179);
+
     
 }
